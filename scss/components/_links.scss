@@ -1,0 +1,16 @@
+a {
+	text-decoration: none !important;
+	color: $color_1 !important;
+	&:link {
+		color: $color_2 !important;
+	}
+	&:visited {
+		color: $color_3 !important;
+	}
+	&:hover {
+		color: $color_4 !important;
+	}
+	&:active {
+		color: $color_5 !important;
+	}
+}
