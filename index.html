@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Master Gym Ciudad Victoria | Asesorias Personalizadas - Entrenador José Gerardo</title>
+    <title>Master Gym Ciudad Victoria | Asesorias - Entrenador José Gerardo</title>
     <link rel="stylesheet" href="./styles/styles.css">
-
+    <!-- Prelad Font -->
+    <link rel="preload" href="/font/DaysLater.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/font/HanzelExtendedBold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/font/impact.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/font/TwCenMTStd.woff2" as="font" type="font/woff2" crossorigin>
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
@@ -30,7 +34,6 @@
     <meta name="geo.placename" content="Ciudad Victoria">
     <meta name="icbm" content="23.724047172535638, -99.15392420510167">
     <meta name="geo.position" content="23.724047172535638, -99.15392420510167">
-
     <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="Master Gym Ciudad Victoria | Asesorías - Entrenador José Gerardo">
@@ -48,9 +51,6 @@
     <meta property="og:phone_number" content="+52 8341181881">
     <meta property="og:postal_code" content="87000">
     <meta property="og:email" content="mastergymvictoria@gmail.com">
-
-
-
     <!-- Jason LD para Google Local -->
     <script type='application/ld+json'>
         {
@@ -117,7 +117,7 @@
     </header>
     <main>
         <section id="inicio">
-            <h1 id="Marca">Marca</h1><!-- No se muestra -->
+            <h1 id="Marca">MasterGym</h1><!-- No se muestra -->
             <img src="./img/fondo-inicio.jpg" alt="Imagen Fondo Inicio">
             <a href="#quienesSomos" class="scroll-down-link scroll-down-arrow" data-iconfont="ETmodules" data-icon>
 			</a>
@@ -129,7 +129,43 @@
 
             <h3>Nuestro Entrenador</h3>
             <div class="center video-container">
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Xsj_bYk28y0?start=40" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe style="position: absolute; top: 0; left:0; width: 100%; height: 100%; border: 0" loading="lazy"; 
+                srcdoc="<style>
+                    * {
+                    padding: 0;
+                    margin: 0;
+                    overflow: hidden;
+                    }
+                    body, html {
+                        height: 100%;
+                    }
+                    img, svg {
+                        position: absolute;
+                        width: 100%;
+                        top: 0;
+                        bottom: 0;
+                        margin: auto;
+                    }
+                    svg {
+                        filter: drop-shadow(1px 1px 10px hsl(206.5, 70.7%, 8%));
+                        transition: all 250ms ease-in-out;
+                    }
+                    body:hover svg {
+                        filter: drop-shadow(1px 1px 10px hsl(206.5, 0%, 10%));
+                        transform: scale(1.2);
+                    }
+                    </style>
+                    <a href='https://www.youtube-nocookie.com/embed/Xsj_bYk28y0?start=40'>
+                    <img src='https://img.youtube.com/vi/Xsj_bYk28y0/hqdefault.jpg' alt='Entrevista a José Gerardo sub campeón mundial, hecha por el periódico expreso.'>
+                    <svg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='#ffffff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-play-circle'><circle cx='12' cy='12' r='10'></circle><polygon points='10 8 16 12 10 16 10 8'></polygon></svg>
+                    </a>
+                    "
+                    src="https://www.youtube-nocookie.com/embed/Xsj_bYk28y0?start=40" 
+                    title="Entrevista a José Gerardo sub campeón mundial, hecha por el periódico expreso."
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
             </div>
             </div>
         </section>
@@ -173,27 +209,27 @@
                <div class="row">
                   <div class="col-12 col-md-12 mb-3 text-center">
                      <h2>Testimoniales</h2>
-                     <p>Lorem ipsum dolor sit amet.</p>
+                     <p>Cambiando vidas</p>
                   </div>
                   <div class="col-12 col-md-4 mb-3 text-center ">
                      <div class="p-5 border border-secondary">
-                        <img class="rounded-circle w-50" src="./img/testi1.png" alt="Foto Testimonial1">
-                        <p class="cita p-5">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, perspiciatis!"</p>
-                        <p class="autor p-5">Lorem, ipsum.</p>
+                        <img class="rounded-circle w-50" src="./img/testi1.jpg" alt="Foto Testimonial1">
+                        <p class="cita p-5">"Un Lugar ideal para toda aquella persona que tenga un objetivo definido"</p>
+                        <p class="autor p-5">Eloy Generozo</p>
                      </div>
                   </div>
                   <div class="col-12 col-md-4 mb-3 text-center d-none d-md-block">
                      <div class="p-5 border border-secondary">
-                        <img class="rounded-circle w-50" src="./img/testi2.png" alt="Foto Testimonial1">
-                        <p class="cita p-5">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, perspiciatis!"</p>
-                        <p class="autor p-5">Lorem, ipsum.</p>
+                        <img class="rounded-circle w-50" src="./img/testi2.jpg" alt="Foto Testimonial1">
+                        <p class="cita p-5">"Si te quieres tener buen cuerpo y no estar perdiendo el tiempo ve al MASTER GYM aquí seguro se ven resultados"</p>
+                        <p class="autor p-5">Juan Lira</p>
                      </div>
                   </div>
                   <div class="col-12 col-md-4 mb-3 text-center d-none d-md-block">
                      <div class="p-5 border border-secondary">
-                        <img class="rounded-circle w-50" src="./img/testi3.png" alt="Foto Testimonial1">
-                        <p class="cita p-5">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, perspiciatis!"</p>
-                        <p class="autor p-5">Lorem, ipsum.</p>
+                        <img class="rounded-circle w-50" src="./img/testi3.jpg" alt="Foto Testimonial1">
+                        <p class="cita p-5">"El mejor lugar para entrenamientos, dietas y rutinas, el master gym, un equipo completo de atletas"</p>
+                        <p class="autor p-5">Angel Elohim.</p>
                      </div>
                   </div>
                </div>
@@ -204,15 +240,15 @@
                 <div class="row text-center">
                     <div class="col-md-6 offset-md-3">
                         <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                            <input type="text" class="form-control text-center" id="exampleFormControlInput1" placeholder="Juan Perez"/>
+                            <label for="exampleFormControlInput1" class="form-label" aria-required="true">Nombre</label>
+                            <input type="text" class="form-control text-center" id="exampleFormControlInput1" placeholder="Tu Nombre"/>
                         </div>
                         <div class="mb-3">
-                            <label for="exampleFormControlInput2" class="form-label">Correo</label>
-                            <input type="email" class="form-control text-center" id="exampleFormControlInput2" placeholder="name@example.com"/>
+                            <label for="exampleFormControlInput2" class="form-label" aria-required="true">Correo</label>
+                            <input type="email" class="form-control text-center" id="exampleFormControlInput2" placeholder="Tu Correo Electronico"/>
                         </div>
                         <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                            <label for="exampleFormControlTextarea1" class="form-label" aria-required="true">Mensaje</label>
                             <textarea class="form-control text-center" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
                         <button type="button" class="btn btn-secondary btn-md btn-block">Enviar</button>
@@ -252,7 +288,7 @@
               </div>
            </div>
            <div class="text-center flex-sm-row justify-content-between py-4 my-4 border-top">
-              <p>123 Lorem, ipsum. CP 21345</p>
+              <p>18 Gutiérrez de Lara #150 Col. Centro, Ciudad Victoria, Tamaulipas, México</p>
               <ul class="list-unstyled d-flex">
                  <li class="ms-3">
                     <a class="link-dark" href="#">
@@ -262,14 +298,14 @@
                     </a>
                  </li>
                  <li class="ms-3">
-                    <a class="link-dark" href="#">
+                    <a class="link-dark" href="https://www.instagram.com/mastergymvictoria/">
                        <svg class="bi" width="24" height="24">
                           <use xlink:href="#instagram"></use>
                        </svg>
                     </a>
                  </li>
                  <li class="ms-3">
-                    <a class="link-dark" href="#">
+                    <a class="link-dark" href="https://www.facebook.com/mastergymvictoria">
                        <svg class="bi" width="24" height="24">
                           <use xlink:href="#facebook"></use>
                        </svg>
