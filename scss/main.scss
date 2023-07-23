@@ -9,7 +9,10 @@
 //Base
 @import 'base/base';
 @import 'base/typography';
-@import 'base/utils';
+
+//Utils
+@import 'utils/flecha-abajo';
+@import 'utils/video';
 
 //Components
 @import 'components/links';
