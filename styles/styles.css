@@ -1,6 +1,5 @@
 /*Colors*/
 /** Font Families */
-@import "https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Poppins:wght@400;500&display=swap";
 /* Mixin Font Face*/
 * {
   margin: 0;
@@ -61,25 +60,29 @@ body {
   font-family: "DaysLater";
   font-style: normal;
   font-weight: normal;
-  src: url("font/DaysLater.woff2") format("woff2"), url("font/DaysLater.woff") format("woff");
+  src: url("../font/DaysLater.woff2") format("woff2"), url("../font/DaysLater.woff") format("woff");
+  font-display: swap;
 }
 @font-face {
   font-family: "HanzelExtendedBold";
   font-style: normal;
   font-weight: normal;
-  src: url("font/HanzelExtendedBold.woff2") format("woff2"), url("font/HanzelExtendedBold.woff") format("woff");
+  src: url("../font/HanzelExtendedBold.woff2") format("woff2"), url("../font/HanzelExtendedBold.woff") format("woff");
+  font-display: swap;
 }
 @font-face {
   font-family: "impact";
   font-style: normal;
   font-weight: 800;
-  src: url("font/impact.woff2") format("woff2"), url("font/impact.woff") format("woff");
+  src: url("../font/impact.woff2") format("woff2"), url("../font/impact.woff") format("woff");
+  font-display: swap;
 }
 @font-face {
   font-family: "TwCenMTStd";
   font-style: normal;
   font-weight: normal;
-  src: url("font/TwCenMTStd.woff2") format("woff2"), url("font/TwCenMTStd.woff") format("woff");
+  src: url("../font/TwCenMTStd.woff2") format("woff2"), url("../font/TwCenMTStd.woff") format("woff");
+  font-display: swap;
 }
 h1 {
   font-family: impact, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
@@ -227,7 +230,7 @@ a {
   color: #335c67 !important;
 }
 a:link {
-  color: #fff3b0 !important;
+  color: rgb(0, 0, 0) !important;
 }
 a:visited {
   color: #e09f3e !important;
@@ -338,8 +341,8 @@ footer {
   scroll-snap-align: start;
   -ms-scroll-snap-align: start;
   overflow-y: scroll;
+  background-color: #f9f9f6;
 }
-
 #testimonios {
   background-color: #f9f9f6;
 }
