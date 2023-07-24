@@ -116,7 +116,7 @@ h3 {
 }
 
 h4 {
-  font-family: HanzelExtendedBold, impact, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: impact, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   font-weight: 800;
   line-height: 1;
   letter-spacing: 2px;
@@ -125,11 +125,12 @@ h4 {
 }
 
 h5 {
-  font-family: HanzelExtendedBold, impact, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: impact, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   font-weight: 800;
   line-height: 1;
   letter-spacing: 2px;
   text-align: center;
+  font-size: 0.5em;
 }
 
 p {
@@ -344,10 +345,6 @@ footer {
   background-color: #f9f9f6;
 }
 #testimonios {
-  background-color: #f9f9f6;
-}
-
-#contacto {
   background-color: #f9f9f6;
 }
 
